@@ -54,9 +54,9 @@ try {
   </div>
 </div>
 
-<section id="reservation" class="py-16 bg-[#ec9624bf] mt-[5rem]">
+<section id="reservation" class="py-16 bg-black mt-[5rem]">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8 text-black">Inscription</h2>
+            <h2 class="text-3xl font-bold mb-8 text-[#9fec24bf]">Inscription</h2>
             
             <form class="max-w-xl mx-auto" action="inscription.php" method="post">
                 <div class="mb-4">
@@ -79,7 +79,7 @@ try {
                         <?php endforeach; ?>
                     </select>
                 </div>
-                <button type="submit" class="bg-black hover:opacity-[0.8] text-white font-bold py-3 px-[16rem] rounded  transition ">Réserver</button>
+                <button type="submit" class="bg-[#9fec24bf] hover:opacity-[0.8] text-white font-bold py-3 px-[16rem] rounded  transition ">Réserver</button>
             </form>
         </div>
     </section>
