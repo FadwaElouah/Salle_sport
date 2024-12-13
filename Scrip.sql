@@ -1,6 +1,6 @@
 ----Créer la base de données :
 
-CREATE  DATABASE Salle_sport;
+CREATE  DATABASE  ;
 
 ----Créer une Table pour une Membre :
 
