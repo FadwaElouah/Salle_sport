@@ -79,7 +79,7 @@ try {
                         <?php endforeach; ?>
                     </select>
                 </div>
-                <button type="submit" class="bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 px-[16rem] rounded">Réserver</button>
+                <button type="submit" class="bg-black hover:opacity-[0.8] text-white font-bold py-3 px-[16rem] rounded  transition ">Réserver</button>
             </form>
         </div>
     </section>
