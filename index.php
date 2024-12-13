@@ -60,26 +60,27 @@ try {
             
             <form class="max-w-xl mx-auto" action="inscription.php" method="post">
                 <div class="mb-4">
-                    <input type="text" name="nom" placeholder="Nom" class="w-full border-purple-300  p-3" required>
+                    <input type="text" name="nom" placeholder="Nom" class="w-full   p-3" required>
                 </div>
                 <div class="mb-4">
-                    <input type="text" name="prenom" placeholder="Prénom" class="w-full border-purple-300 focus:border-purple-900 focus:ring focus:ring-purple-900 rounded p-3" required>
+                    <input type="text" name="prenom" placeholder="Prénom" class="w-full  focus:ring focus:ring-[#9fec24bf]  p-3" required>
                 </div>
                 <div class="mb-4">
-                    <input type="email" name="email" placeholder="Email" class="w-full border-purple-300 focus:border-purple-900 focus:ring focus:ring-purple-900 rounded p-3" required>
+                    <input type="email" name="email" placeholder="Email" class="w-full  focus:ring focus:ring-[#9fec24bf]  p-3" required>
+
                 </div>
                 <div class="mb-4">
-                    <input type="tel" name="telephone" placeholder="N° de téléphone" pattern="[0-9]*" class="w-full border-purple-300 focus:border-purple-900 focus:ring focus:ring-purple-900 rounded p-3" required>
+                    <input type="tel" name="telephone" placeholder="N° de téléphone" pattern="[0-9]*" class="w-full focus:ring focus:ring-[#9fec24bf]  p-3" required>
                 </div>
                 <div class="mb-4">
-                    <select name="activite_id" class="w-full border-purple-300 focus:border-purple-900 focus:ring focus:ring-purple-900 rounded p-3" required>
+                    <select name="activite_id" class="w-full  focus:ring focus:ring-[#9fec24bf] p-3 transition" required>
                         <option value="">Veuillez choisir une activité</option>
                         <?php foreach ($activites as $activite): ?>
                             <option value="<?= htmlspecialchars($activite['id_activitée']) ?>"><?= htmlspecialchars($activite['Nom_activitée']) ?></option>
                         <?php endforeach; ?>
                     </select>
                 </div>
-                <button type="submit" class="bg-[#9fec24bf] hover:opacity-[0.8] text-white font-bold py-3 px-[16rem] rounded  transition ">Réserver</button>
+                <button type="submit" class="bg-[#9fec24bf] hover:opacity-[0.8] text-white font-bold py-3 px-[16rem]   transition ">Réserver</button>
             </form>
         </div>
     </section>
