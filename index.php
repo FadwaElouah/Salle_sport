@@ -54,13 +54,13 @@ try {
   </div>
 </div>
 
-<section id="reservation" class="py-16 bg-[#be802ebe] mt-[5rem]">
+<section id="reservation" class="py-16 bg-[#ec9624bf] mt-[5rem]">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8 text-purple-900">Inscription</h2>
+            <h2 class="text-3xl font-bold mb-8 text-black">Inscription</h2>
             
             <form class="max-w-xl mx-auto" action="inscription.php" method="post">
                 <div class="mb-4">
-                    <input type="text" name="nom" placeholder="Nom" class="w-full border-purple-300 focus:border-purple-900 focus:ring focus:ring-purple-900 rounded p-3" required>
+                    <input type="text" name="nom" placeholder="Nom" class="w-full border-purple-300  p-3" required>
                 </div>
                 <div class="mb-4">
                     <input type="text" name="prenom" placeholder="Prénom" class="w-full border-purple-300 focus:border-purple-900 focus:ring focus:ring-purple-900 rounded p-3" required>
