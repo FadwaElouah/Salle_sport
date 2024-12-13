@@ -20,7 +20,7 @@ try {
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<nav class="bg-blue-500 p-4">
+<nav class="bg-[#c50a77] p-4">
   <div class="container mx-auto flex items-center justify-between">
     <!-- Logo -->
     <div class="text-white text-xl font-bold">
@@ -32,7 +32,7 @@ try {
         <a href="#" class="text-white hover:text-blue-200">Accueil</a>
       </li>
       <li>
-        <a href="affichage_membres.php" class="text-white hover:text-blue-200">Liste Membres</a>
+        <a href="affichage_membres.php" class="text-white hover:text-blue-200 pr-[4rem]">Liste Membres</a>
       </li>
     </ul>
   </div>
@@ -74,31 +74,31 @@ try {
 
 <section id="reservation" class="py-16 bg-black mt-[5rem]">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8 text-[#9fec24bf]">Inscription</h2>
+            <h2 class="text-3xl font-bold mb-8 text-[#ff129cbf]">Inscription</h2>
             
             <form class="max-w-xl mx-auto" action="inscription.php" method="post">
                 <div class="mb-4">
                     <input type="text" name="nom" placeholder="Nom" class="w-full   p-3" required>
                 </div>
                 <div class="mb-4">
-                    <input type="text" name="prenom" placeholder="Prénom" class="w-full  focus:ring focus:ring-[#9fec24bf]  p-3" required>
+                    <input type="text" name="prenom" placeholder="Prénom" class="w-full  focus:ring focus:ring-[#ff129cbf]  p-3" required>
                 </div>
                 <div class="mb-4">
-                    <input type="email" name="email" placeholder="Email" class="w-full  focus:ring focus:ring-[#9fec24bf]  p-3" required>
+                    <input type="email" name="email" placeholder="Email" class="w-full  focus:ring focus:ring-[#ff129cbf]  p-3" required>
 
                 </div>
                 <div class="mb-4">
-                    <input type="tel" name="telephone" placeholder="N° de téléphone" pattern="[0-9]*" class="w-full focus:ring focus:ring-[#9fec24bf]  p-3" required>
+                    <input type="tel" name="telephone" placeholder="N° de téléphone" pattern="[0-9]*" class="w-full focus:ring focus:ring-[#ff129cbf]  p-3" required>
                 </div>
                 <div class="mb-4">
-                    <select name="activite_id" class="w-full  focus:ring focus:ring-[#9fec24bf] p-3 transition" required>
+                    <select name="activite_id" class="w-full  focus:ring focus:ring-[#ff129cbf] p-3 transition" required>
                         <option value="">Veuillez choisir une activité</option>
                         <?php foreach ($activites as $activite): ?>
                             <option value="<?= htmlspecialchars($activite['id_activitée']) ?>"><?= htmlspecialchars($activite['Nom_activitée']) ?></option>
                         <?php endforeach; ?>
                     </select>
                 </div>
-                <button type="submit" class="bg-[#9fec24bf] hover:opacity-[0.8] text-white font-bold py-3 px-[16rem]   transition ">Réserver</button>
+                <button type="submit" class="bg-[#ff129cbf] hover:opacity-[0.8] text-white font-bold py-3 px-[16rem]   transition ">Réserver</button>
             </form>
         </div>
     </section>
