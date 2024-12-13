@@ -32,7 +32,7 @@ try {
         <a href="#" class="text-white hover:text-blue-200">Accueil</a>
       </li>
       <li>
-        <a href="affichage_membres.php" class="text-white hover:text-blue-200 pr-[4rem]">Liste Membres</a>
+        <a href="affichage_membres.php" class="text-white hover:text-blue-200  pr-[4rem]">Liste Membres</a>
       </li>
     </ul>
   </div>

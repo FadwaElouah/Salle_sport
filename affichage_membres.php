@@ -37,14 +37,14 @@ try {
         <a href="index.php" class="text-white hover:text-blue-200">Accueil</a>
       </li>
       <li>
-        <a href="#" class="text-white hover:text-blue-200">Liste Membres</a>
+        <a href="#" class="text-white hover:text-blue-200  pr-[4rem]">Liste Membres</a>
       </li>
     </ul>
   </div>
 </nav>
     
     <!-- ------------------------------------------ -->
-    <div class="overflow-x-auto p-4 bg-white rounded-lg shadow-md">
+    <div class="overflow-x-auto p-4 bg-white rounded-lg shadow-md mt-[4rem]">
     <table class="table-auto w-full border-collapse border border-gray-200">
         <thead class="bg-purple-700 text-white">
             <tr>
