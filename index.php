@@ -20,6 +20,24 @@ try {
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+<nav class="bg-blue-500 p-4">
+  <div class="container mx-auto flex items-center justify-between">
+    <!-- Logo -->
+    <div class="text-white text-xl font-bold">
+      Salle de Sport
+    </div>
+    <!-- Menu -->
+    <ul class="flex space-x-6">
+      <li>
+        <a href="#" class="text-white hover:text-blue-200">Accueil</a>
+      </li>
+      <li>
+        <a href="affichage_membres.php" class="text-white hover:text-blue-200">Liste Membres</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 
 <div class="container mx-auto p-6">
   <h1 class="text-2xl font-bold mb-4 text-center">Liste des Activités</h1>

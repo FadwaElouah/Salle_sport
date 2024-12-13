@@ -3,7 +3,7 @@ include 'db_connection.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
-        $stmt = $pdo->prepare("INSERT INTO membre (Nom, Prenom, Email, telephone) VALUES (?, ?, ?, ?)");
+        $stmt = $pdo->prepare("INSERT INTO membres (Nom, Prenom, Email, telephone) VALUES (?, ?, ?, ?)");
 
         $stmt->execute([
             $_POST['nom'],
