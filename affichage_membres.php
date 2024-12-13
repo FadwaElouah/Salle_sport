@@ -25,7 +25,7 @@ try {
     <title>PowerMove - Salle de Sport</title>
 </head>
 <body class="text-gray-800">
-<nav class="bg-blue-500 p-4">
+<nav class="bg-[#c50a77] p-4">
   <div class="container mx-auto flex items-center justify-between">
     <!-- Logo -->
     <div class="text-white text-xl font-bold">
